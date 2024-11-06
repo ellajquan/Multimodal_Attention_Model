@@ -1,0 +1,22 @@
+{
+    "s3_bucket_name": "ella-dlbiomarkers",
+    "file_path_excel": "CMMD-D2/modified_organized_metadata.xlsx",
+    "data_percentage": 1,
+    "train_test_split_percentage": 0.8,
+    "output_excel_name_train": "CMMD-D2/train_labels.xlsx",
+    "output_excel_name_test": "CMMD-D2/test_labels.xlsx",
+    "output_dir_train": "CMMD-D2/train",
+    "output_dir_test": "CMMD-D2/test",
+    "views": ["CC", "MLO"],
+    "seed": 1203,
+    "as_gray": true,
+    "in_channel": 3,
+    "img_rows": 256,
+    "img_cols": 256,
+    "num_classes": 2,
+    "batch_size": 32,
+    "all_epochs": 100,
+    "input_shape": [256, 256, 3],
+    "train_labels_path": "CMMD-D2/train_labels.xlsx",
+    "test_labels_path": "CMMD-D2/test_labels.xlsx"
+}
